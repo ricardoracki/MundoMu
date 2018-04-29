@@ -34,10 +34,11 @@ $(document).ready(function(){
 		var div = document.getElementById("resp");
 		
 		div.innerHTML = mensagem;
+		}
 		   
 	
 	
-	})};
+	});
 	
 	
 	
