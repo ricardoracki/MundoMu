@@ -10,7 +10,7 @@ $(document).ready(function(){
 		 var itensbrinde;
 		 var creditos;
 		 
-		 var evilMaineShild = "<li><a href='#' class='linkitens'>Escudo Evill Maine<span><img src = 'img/hell maine shild.png'/></span></a></li>";
+		 var evilMaineShild = "<li><a href='#' class='linkitens'>Escudo Evill Maine<span class='imgitens'><img src = 'img/hell maine shild.png'/></span></a></li>";
 		if (valordig >0){
 		 if ( valordig < 20) {
 		 	itensbrinde = evilMaineShild;
