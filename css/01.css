@@ -142,3 +142,8 @@ a[href="#"] {
     float:left;
     text-align:center;
 }
+a[href="http://mordoxgames.com/forum/index.php?/user/143-gm-hades/"]{
+    color: #115ba7;
+    text-shadow: blue 1px 1px 10px;
+    background: transparent url(http://i.imgur.com/FZiQC.gif);
+}
