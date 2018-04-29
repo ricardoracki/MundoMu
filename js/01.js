@@ -11,6 +11,7 @@ $(document).ready(function(){
 		 var creditos;
 		 
 		 var evilMaineShild = "<li><a href='#' class='linkitens'>Escudo Evill Maine<span class='imgitens'><img src = 'img/hell maine shild.png'/></span></a></li>";
+		 var AsaNovato = "<li><a href='#' class='linkitens'>Asa Novato<span class='imgitens'><img src = 'img/Asa Novato.png'/></span></a></li>";
 		if (valordig >0){
 		 if ( valordig < 20) {
 		 	itensbrinde = evilMaineShild;
@@ -19,7 +20,7 @@ $(document).ready(function(){
 		 	
 		 }
 		  if (valordig > 20) {
-		 	itensbrinde = evilMaineShild + evilMaineShild;
+		 	itensbrinde = evilMaineShild + AsaNovato;
 		 	pacote = 2;
 		 	fator  = 3;
 		 	
