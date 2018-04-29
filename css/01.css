@@ -130,3 +130,10 @@ a[href="#"] {
     float:left;
     text-align:center;
 }
+.linkitens:hover span{
+    display:block; /* Aqui você diz que ao passar o mouse sobre o link, colocar um display no span dentro desse link */
+    position:absolute; /* Para você poder posicionar ao queira, sem quebrar o layour em volta */
+    top: 0px; /* Para ficar na mesma altura do link */
+    left: 100%; /* Empurra a imagem para fora do link, ficando ao seu lado */
+    border:1px #CCCCCC solid; /* Estilo extra, lembrando que você pode colocar qualquer estilo nesse elemento */
+}
