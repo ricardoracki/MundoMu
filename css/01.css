@@ -92,19 +92,7 @@ body {
 }
 
 
-a:visited{
-    color: #e9f0f5;
-    text-decoration: none;
-    padding-left: 20px;
-    font-size: 28px;
-}
-a:hover{
-    color: #e9f0f5;
-    text-decoration: none;
-    padding-left: 20px;
-    font-size: 28px;
-    cursor:pointer;
-}
+
 a[href="#"]{
      font-size: 19px;
     color: blue;
