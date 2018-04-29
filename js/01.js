@@ -11,8 +11,8 @@ $(document).ready(function(){
 		 var creditos;
 		 
 		 var evilMaineShild = "<li><a href='#' class='linkitens'>Escudo Evill Maine<span><img src = 'img/hell maine shild.png'/></span></a></li>";
-
-		 if (valordig > 0 && valordig < 20) {
+		if (valordig >0){
+		 if ( valordig < 20) {
 		 	itensbrinde = evilMaineShild;
 		 	pacote = 1;
 		 	fator  = 2;
@@ -37,7 +37,7 @@ $(document).ready(function(){
 		   
 	
 	
-	});
+	})};
 	
 	
 	
