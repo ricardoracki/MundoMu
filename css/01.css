@@ -25,11 +25,15 @@
     float:left;
     position:relative;
     left:25%;
+    font-size: 25px;
+    color: #fff;
 }
 .lnksite{
     float:left;
     position:relative;
     left:75%;
+    font-size: 25px;
+    color: #fff;
 }
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
