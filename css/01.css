@@ -24,12 +24,12 @@
 .lnkforum{
     float:left;
     position:relative;
-    left:14%;
+    left:25%;
 }
-.lnkshop{
-    float:right;
+.lnksite{
+    float:left;
     position:relative;
-    left:-14%;
+    left:75%;
 }
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
