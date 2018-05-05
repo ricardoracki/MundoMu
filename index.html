@@ -9,6 +9,8 @@
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -36,7 +38,8 @@
 				<div id = "display1" class = "borderapp floatapp centerapp">
 					<!--<span class = "depositoTitle displayTitle" ><b> Valor do deposito </b></span>-->
 
-					<input id = "valordig" type = "text" placeholder = "R$0" class = "centerapp floatapp" onkeypress="return SomenteNumero(event)"/>
+					
+					<input id = "valordig" type = "text" value = "R$" title = "Valor da contribuição" class = "centerapp floatapp" onkeypress="return SomenteNumero(event)"/> 
 
 					<!--<button id = "btnCalcular">Calcular</button> -->
 
