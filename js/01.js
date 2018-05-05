@@ -33,6 +33,9 @@ $(document).ready(function(){
 				pacote = 0;
 				bonus = 0;
 				vip = "";
+			} else {
+				$("#display2").html('<span class = "titulos" ><b> Itens brinde: </b></span>');
+
 			}			
 
 		 	if ( valordig >= 50 && valordig <= 59) {
@@ -64,7 +67,7 @@ $(document).ready(function(){
 		   var mensagem1 = "<span class = 'titulos' ><b> Ganho em créditos:</b></span><br />Promoção "+ promoname + "<br />Válida até " + promovalidate + "<br>  Receberá " + creditos + " Créditos<br> " + vip;
 			
 			//$("#valordig").val(''); // limpa edit
-			$("#display2").html(mensagem1)
+			$("#display2").html(mensagem1);
 
 			
 			if (itensbrinde !== undefined){
@@ -74,7 +77,7 @@ $(document).ready(function(){
 			$("#display3").html(brindes); //mostra itens brinde
 
 			} else {
-				$("#display3").html('')
+				$("#display3").html('<span class = "titulos" ><b> Itens brinde: </b></span>')
 			}
 
 
