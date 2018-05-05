@@ -1,0 +1,87 @@
+.borderapp {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.floatapp {
+    float: left;
+}
+.centerapp {
+    text-align: center;
+}
+
+#display1 {
+    width: 300px;
+    height: 111px;
+}
+#display2 {
+    width: 300px;
+    height: 137px;
+    top: 127px;
+    position: absolute;
+    color: white; 
+    text-shadow: #FFFFFF 1px 1px 10px;
+    padding-top: 17px;
+   /*border-color: white;*/
+}
+#display3 {
+    width: 715px;
+    height: 248px;
+     color: white;
+    text-shadow: #FFFFFF 1px 1px 10px;
+}
+.listaitens{
+    list-style-type:none;
+}
+.listaitens li{
+    float:left;
+    text-align:center;
+}
+.linkitens {
+    position: relative;
+    display: block;
+    width: 100px;
+    padding: 5px 0; */
+    /* border: 1px #999999 solid; */
+    /* background-color: #CCCCCC; */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.linkitens:hover{
+    background-color:#999999;
+}
+a span{
+    display:none; /* Aqui você define que todo SPAN que estiver dentro de um A estará invisível */
+}
+a:hover span {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    border: 1px #CCCCCC solid;
+}
+
+input#valordig {
+    position: relative;
+    top: 22%;
+    margin: auto;
+    /* margin: 20px; */
+    margin-left: 67px;
+    margin-top: 22px;
+}
+.displayTitle{
+    font-size: 10px;
+    color: blue;
+    float: left;
+
+}
+#principal {
+    width: 1023px;
+    height: 253px;
+    background-image: url('page/back img.jpg');
+    background-size: 1030px 470px;
+    background-repeat: no-repeat;
+    margin: 15px;
+    margin-left: 130px;
+    border-radius: 5px;
+    padding: 2px;
+}
