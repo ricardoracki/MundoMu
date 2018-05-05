@@ -19,9 +19,18 @@
     top: 127px;
     position: absolute;
     color: white; 
+   /* text-shadow: #FFFFFF 1px 1px 10px;
+    padding-top: 17px;
+   border-color: white;*/
+}
+span, #display2{
     text-shadow: #FFFFFF 1px 1px 10px;
     padding-top: 17px;
-   /*border-color: white;*/
+    color:#FFFFFF;
+}
+span{
+  color:  #00FFFF;
+  text-shadow: #00FFFF 1px 1px 10px;;
 }
 #display3 {
     width: 715px;
@@ -66,7 +75,7 @@ input#valordig {
     margin: auto;
     /* margin: 20px; */
     margin-left: 67px;
-    margin-top: 22px;
+    margin-top: 2px;
 }
 .displayTitle{
     font-size: 10px;
@@ -77,11 +86,15 @@ input#valordig {
 #principal {
     width: 1023px;
     height: 253px;
-    background-image: url('page/back img.jpg');
-    background-size: 1030px 470px;
+    /* background-image: url(page/back img.jpg); */
+    /* background-size: 1030px 470px; */
     background-repeat: no-repeat;
     margin: 15px;
     margin-left: 130px;
     border-radius: 5px;
     padding: 2px;
+    background-color: #303030;
+}
+a.linkitens.floatapp {
+    padding-top: 10px;
 }

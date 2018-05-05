@@ -22,40 +22,46 @@ $(document).ready(function(){
 		 var asaNovato = criarItem("Asa Novato", "img/itens/Asa Novato.png");
 
 		$("#valordig").val("R$" + valordig);
-		
+
 		 /*
 
 		 *Pacotes
 
 		 */
 		if (valordig > 0){
+			if (valordig < 50){
+				pacote = 0;
+				bonus = 0;
+				vip = "";
+			}			
 
-		 	if ( valordig < 20 && valordig < 49) {
-		 	//itensbrinde = evilMaineShild;
-		 	pacote = 1;
-		 	bonus = 10;
-		 	
+		 	if ( valordig >= 50 && valordig <= 59) {
+		 		pacote = 1;
+		 		bonus = 15;
+		 		vip = "";
+		 		itensbrinde = asaNovato;
+		 		
 			}
 
-			  if (valordig > 50 && valordig < 99) {
-		 	itensbrinde = evilMaineShild;
-		 	pacote = 2;
-		 	bonus  = 20;
-		 	
+			if (valordig >= 60 && valordig <= 99) {
+		 		pacote = 2;
+		 		bonus  = 25;
+		 		vip = " + 60 dias Vip Ouro";
+		 		itensbrinde = evilMaineShild + asaNovato;
 		 	}
 
-		 		if (valordig > 100) {
-		 	itensbrinde = evilMaineShild + asaNovato;
-		 	pacote = 2;
-		 	bonus  = 50;
-		 	
+		 	if (valordig >= 100) {
+		 		pacote = 3;
+		 		bonus  = 35;
+		 		vip = " + 90 dias Vip Ouro";
+		 		itensbrinde = evilMaineShild + asaNovato + evilMaineShild;
 		 	}
 		 
 		 	
 
 		    creditos = (+valordig) + (+bonus);
 
-		   var mensagem1 = "Promoção "+ promoname + "<br />Válida até " + promovalidate + "<br>  Receberá " + creditos + " Créditos<br> Promoção válida somente para PagSeguro";
+		   var mensagem1 = "<span class = 'titulos' ><b> Ganho em créditos:</b></span><br />Promoção "+ promoname + "<br />Válida até " + promovalidate + "<br>  Receberá " + creditos + " Créditos<br> " + vip;
 			
 			//$("#valordig").val(''); // limpa edit
 			$("#display2").html(mensagem1)
@@ -63,7 +69,7 @@ $(document).ready(function(){
 			
 			if (itensbrinde !== undefined){
 
-			var brindes = "<ul class = 'listaitens'>"+itensbrinde+"</ul>"; //texto de brindes
+			var brindes = "<span class = 'titulos' ><b> Itens brinde: </b></span><ul class = 'listaitens'>"+itensbrinde+"</ul>"; //texto de brindes
 
 			$("#display3").html(brindes); //mostra itens brinde
 
