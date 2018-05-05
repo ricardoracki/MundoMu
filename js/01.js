@@ -7,7 +7,7 @@ $(document).ready(function(){
 	}
 	
 	$("#valordig").keyup(function executar(){
-		 var valordig = $("#valordig").val();
+		 var valordig = ($("#valordig").val()).substr(2);
 		 var promoname = "MundoMu";
 		 var fator;
 		 var pacote;
@@ -21,13 +21,14 @@ $(document).ready(function(){
 		 var evilMaineShild = criarItem("Escudo Evill Maine", "img/itens/hell maine shild.png" );
 		 var asaNovato = criarItem("Asa Novato", "img/itens/Asa Novato.png");
 
+		$("#valordig").val("R$" + valordig);
 		
 		 /*
 
 		 *Pacotes
 
 		 */
-		if (valordig >0){
+		if (valordig > 0){
 
 		 	if ( valordig < 20 && valordig < 49) {
 		 	//itensbrinde = evilMaineShild;
@@ -50,6 +51,8 @@ $(document).ready(function(){
 		 	
 		 	}
 		 
+		 	
+
 		    creditos = (+valordig) + (+bonus);
 
 		   var mensagem1 = "Promoção "+ promoname + "<br />Válida até " + promovalidate + "<br>  Receberá " + creditos + " Créditos<br> Promoção válida somente para PagSeguro";
