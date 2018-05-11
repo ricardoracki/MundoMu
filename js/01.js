@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	function criarItem(name, addres){
-		var s = "<li><a href='#' class='linkitens floatapp'>" + name + "<span class='imgitens'><img src = '" + addres + "'/></span></a></li>";
+		var s = "<li><a href='#simulador' class='linkitens floatapp'>" + name + "<span class='imgitens'><img src = '" + addres + "'/></span></a></li>";
 		return s;
 
 	}
