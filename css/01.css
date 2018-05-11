@@ -77,8 +77,11 @@ input#valordig {
     top: 22%;
     margin: auto;
     /* margin: 20px; */
-    margin-left: 67px;
+    margin-left: 47px;
     margin-top: 2px;
+    height: 26px;
+    border-radius: 10px;
+    font-family: cursive;
 }
 .displayTitle{
     font-size: 10px;
