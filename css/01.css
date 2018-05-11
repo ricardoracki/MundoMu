@@ -16,10 +16,13 @@
 #display2 {
     width: 300px;
     height: 137px;
-    top: 2000px;
-    position: absolute;
+    top: 32%;
+    /* position: absolute; */
     color: white;
-}
+    float: left;
+    position: relative;
+    left: -30%;
+    }
 span, #display2{
    /* text-shadow: #FFFFFF 1px 1px 10px;*/
     padding-top: 17px;
@@ -32,8 +35,11 @@ span{
 #display3 {
     width: 715px;
     height: 248px;
-     color: white;
-   /* text-shadow: #FFFFFF 1px 1px 10px;*/
+    color: white;
+    /* text-shadow: #FFFFFF 1px 1px 10px; */
+    float: right;
+    position: relative;
+    top: -56%;
 }
 .listaitens{
     list-style-type:none;
@@ -98,4 +104,8 @@ a.linkitens.floatapp {
 }
 .float_right{
     float: right;
+}
+.header_app{
+    width: 10px;
+    height: 10px;
 }
